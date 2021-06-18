@@ -5,6 +5,9 @@ describe('Sum', () => {
   it('should handle positive numbers', () => {
     assert.equal(sum(3, 5), 8);
   });
+ it('should handle prime numbers', () => {
+    assert.equal(sum(2, 3), 5);
+  });
   it('should handle negative numbers', () => {
     assert.equal(sum(3, -5), -2);
   });
